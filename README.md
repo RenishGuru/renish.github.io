@@ -1,190 +1,87 @@
-# Data Engineer Portfolio - Dynamic Edition
+🚀 Data Engineering Portfolio
+Turning Data Into Decisions
 
-A modern, premium portfolio website with **JSON-driven dynamic content**. Update your portfolio by simply editing `portfolio-data.json` - no HTML knowledge required!
+“Transforming raw data into reliable insights that drive meaningful action.”
 
-## 🎯 What's New - Dynamic Content System
+👋 About Me
 
-✅ **Edit JSON, Not HTML**: All content in one `portfolio-data.json` file
-✅ **Auto-scroll to Home**: Page always starts at top on refresh
-✅ **Custom Favicon**: Professional branding with gradient logo  
-✅ **Instant Updates**: Change JSON, refresh browser - that's it!
+I am a Data Engineer focused on building scalable, reliable, and impactful data solutions. My work centers around transforming complex datasets into structured, decision-ready insights that empower businesses to move with clarity and confidence.
 
-## 📁 Project Structure
+I believe data is most valuable when it is accessible, trusted, and actionable.
 
-```
-portfolio/
-├── index.html              # Structure (rarely edit)
-├── styles.css              # Styling
-├── app.js                  # Dynamic loader + interactions
-├── portfolio-data.json     # 👈 EDIT THIS to update all content
-├── favicon.svg             # Your logo
-└── README.md               # This file
-```
+🛠 Core Expertise
 
-## 🚀 Quick Start
+  End-to-End Data Engineering
+  
+  Scalable ETL Pipeline Development
+  
+  Data Modeling & Optimization
+  
+  Distributed Data Processing
+  
+  Dashboard & Business Intelligence Integration
+  
+  Backend & API Integration
 
-### 1. Edit `portfolio-data.json`
-```json
-{
-  "personal": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
-  }
-}
-```
+🔧 Tech Stack
 
-### 2. Save & Refresh Browser
-Changes appear instantly - no build process needed!
+Languages & Processing
 
-## 📝 How to Update Content
+Python
 
-### Personal Info
-```json
-"personal": {
-  "name": "John Doe",
-  "title": "Senior Data Engineer",
-  "email": "john@example.com",
-  "linkedin": "https://linkedin.com/in/johndoe"
-}
-```
+  SQL
+  
+  PySpark
+  
+  Data Platforms & Tools
+  
+  Databricks
+  
+  PostgreSQL
+  
+  Delta Lake
+  
+  Visualization & Insights
+  
+  Power BI
+  
+  Dashboard Development
+  
+  KPI Reporting
 
-### Hero Section
-```json
-"hero": {
-  "title": {
-    "part1": "I turn complex data into",
-    "highlight": "business-critical solutions",
-    "part2": "that save millions"
-  },
-  "stats": [
-    { "value": "$2M+", "label": "Cost Savings" }
-  ]
-}
-```
+📊 What I Focus On
 
-### Add Projects
-```json
-"projects": {
-  "items": [
-    {
-      "title": "Project Name",
-      "problem": { "description": "..." },
-      "solution": { "description": "..." },
-      "techStack": ["Python", "FastAPI"],
-      "impact": [
-        { "value": "$1.8M", "label": "Savings" }
-      ]
-    }
-  ]
-}
-```
+✔ Building production-ready data pipelines
+✔ Ensuring data reliability and performance
+✔ Optimizing queries and data workflows
+✔ Delivering dashboards that drive decisions
+✔ Bridging engineering with business intelligence
 
-### Update Skills
-```json
-"skills": {
-  "categories": [
-    {
-      "name": "Backend",
-      "skills": [
-        { "name": "Python", "percentage": 95 }
-      ]
-    }
-  ]
-}
-```
+🌟 Portfolio Highlights
 
-## 🎨 Customization
+  This repository showcases projects that demonstrate:
+  
+  Real-world data engineering solutions
+  
+  Scalable system design
+  
+  Performance optimization
+  
+  Data transformation and analytics
+  
+  Dashboard-driven insights
+  
+  Each project reflects a commitment to clean architecture, scalability, and measurable impact.
 
-### Colors
-Edit `styles.css`:
-```css
-:root {
-    --color-primary-500: #0C66E4;
-}
-```
+📈 Vision
 
-### Favicon
-Edit `favicon.svg` with your initials or logo
+  Data is not just about storage — it’s about strategy.
+  My goal is to design systems that turn complexity into clarity and insights into action.
 
-## 🚀 Deployment
+🤝 Let’s Connect
 
-### GitHub Pages
-1. Create repo
-2. Upload all files
-3. Settings → Pages → Deploy
-4. Live at `yourusername.github.io/repo`
+If you’re interested in collaboration, opportunities, or discussing data engineering:
 
-### Netlify / Vercel
-Drag & drop folder for instant deployment
+LinkedIn: linkedin.com/in/renish07
 
-## 💡 Tips for Recruiters
-
-### Use Real Metrics
-- $2M saved → Use YOUR actual number
-- 50M records → Use YOUR scale
-- 99.97% uptime → Use YOUR metrics
-
-### Update Regularly
-- Add new projects monthly
-- Update achievements quarterly
-- Keep skills current
-
-### JSON Validation
-Check syntax at [JSONLint.com](https://jsonlint.com) before saving
-
-## 🔧 Troubleshooting
-
-**Content not updating?**
-- Clear cache (Ctrl+Shift+R)
-- Validate JSON at JSONLint.com
-- Check browser console (F12)
-
-**JSON Syntax Rules:**
-- Use `"double quotes"` not `'single'`
-- Add commas between items
-- No comma after last item
-- Match brackets: `{}` and `[]`
-
-## 📊 What Recruiters See
-
-**First 6 seconds:**
-✅ $2M+ in headline
-✅ 99.97% uptime stat
-✅ "Immediate Joiner" badge
-✅ Clear metrics
-
-## 📝 JSON Quick Reference
-
-```json
-{
-  "string": "text in quotes",
-  "number": 123,
-  "boolean": true,
-  "array": ["item1", "item2"],
-  "object": { "key": "value" }
-}
-```
-
-## 📧 Contact Form
-
-Currently client-side. To make functional:
-- **Formspree**: Easiest (add action URL)
-- **EmailJS**: Free tier available  
-- **Custom**: Modify `app.js`
-
-## 📈 Optional Analytics
-
-Add to `index.html` before `</head>`:
-```html
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_ID"></script>
-```
-
-## 💬 Support
-
-- Validate JSON: JSONLint.com
-- Check console: Press F12
-- Compare to template structure
-
----
-
-**Update once, impress everyone** | JSON-powered simplicity
+Email: renishguru@gmail.com
