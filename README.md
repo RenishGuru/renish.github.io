@@ -1,87 +1,190 @@
-🚀 Data Engineering Portfolio
-Turning Data Into Decisions
+# Data Engineer Portfolio - Dynamic Edition
 
-“Transforming raw data into reliable insights that drive meaningful action.”
+A modern, premium portfolio website with **JSON-driven dynamic content**. Update your portfolio by simply editing `portfolio-data.json` - no HTML knowledge required!
 
-👋 About Me
+## 🎯 What's New - Dynamic Content System
 
-I am a Data Engineer focused on building scalable, reliable, and impactful data solutions. My work centers around transforming complex datasets into structured, decision-ready insights that empower businesses to move with clarity and confidence.
+✅ **Edit JSON, Not HTML**: All content in one `portfolio-data.json` file
+✅ **Auto-scroll to Home**: Page always starts at top on refresh
+✅ **Custom Favicon**: Professional branding with gradient logo  
+✅ **Instant Updates**: Change JSON, refresh browser - that's it!
 
-I believe data is most valuable when it is accessible, trusted, and actionable.
+## 📁 Project Structure
 
-🛠 Core Expertise
+```
+portfolio/
+├── index.html              # Structure (rarely edit)
+├── styles.css              # Styling
+├── app.js                  # Dynamic loader + interactions
+├── portfolio-data.json     # 👈 EDIT THIS to update all content
+├── favicon.svg             # Your logo
+└── README.md               # This file
+```
 
-End-to-End Data Engineering
+## 🚀 Quick Start
 
-Scalable ETL Pipeline Development
+### 1. Edit `portfolio-data.json`
+```json
+{
+  "personal": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  }
+}
+```
 
-Data Modeling & Optimization
+### 2. Save & Refresh Browser
+Changes appear instantly - no build process needed!
 
-Distributed Data Processing
+## 📝 How to Update Content
 
-Dashboard & Business Intelligence Integration
+### Personal Info
+```json
+"personal": {
+  "name": "John Doe",
+  "title": "Senior Data Engineer",
+  "email": "john@example.com",
+  "linkedin": "https://linkedin.com/in/johndoe"
+}
+```
 
-Backend & API Integration
+### Hero Section
+```json
+"hero": {
+  "title": {
+    "part1": "I turn complex data into",
+    "highlight": "business-critical solutions",
+    "part2": "that save millions"
+  },
+  "stats": [
+    { "value": "$2M+", "label": "Cost Savings" }
+  ]
+}
+```
 
-🔧 Tech Stack
+### Add Projects
+```json
+"projects": {
+  "items": [
+    {
+      "title": "Project Name",
+      "problem": { "description": "..." },
+      "solution": { "description": "..." },
+      "techStack": ["Python", "FastAPI"],
+      "impact": [
+        { "value": "$1.8M", "label": "Savings" }
+      ]
+    }
+  ]
+}
+```
 
-Languages & Processing
+### Update Skills
+```json
+"skills": {
+  "categories": [
+    {
+      "name": "Backend",
+      "skills": [
+        { "name": "Python", "percentage": 95 }
+      ]
+    }
+  ]
+}
+```
 
-Python
+## 🎨 Customization
 
-SQL
+### Colors
+Edit `styles.css`:
+```css
+:root {
+    --color-primary-500: #0C66E4;
+}
+```
 
-PySpark
+### Favicon
+Edit `favicon.svg` with your initials or logo
 
-Data Platforms & Tools
+## 🚀 Deployment
 
-Databricks
+### GitHub Pages
+1. Create repo
+2. Upload all files
+3. Settings → Pages → Deploy
+4. Live at `yourusername.github.io/repo`
 
-PostgreSQL
+### Netlify / Vercel
+Drag & drop folder for instant deployment
 
-Delta Lake
+## 💡 Tips for Recruiters
 
-Visualization & Insights
+### Use Real Metrics
+- $2M saved → Use YOUR actual number
+- 50M records → Use YOUR scale
+- 99.97% uptime → Use YOUR metrics
 
-Power BI
+### Update Regularly
+- Add new projects monthly
+- Update achievements quarterly
+- Keep skills current
 
-Dashboard Development
+### JSON Validation
+Check syntax at [JSONLint.com](https://jsonlint.com) before saving
 
-KPI Reporting
+## 🔧 Troubleshooting
 
-📊 What I Focus On
+**Content not updating?**
+- Clear cache (Ctrl+Shift+R)
+- Validate JSON at JSONLint.com
+- Check browser console (F12)
 
-✔ Building production-ready data pipelines
-✔ Ensuring data reliability and performance
-✔ Optimizing queries and data workflows
-✔ Delivering dashboards that drive decisions
-✔ Bridging engineering with business intelligence
+**JSON Syntax Rules:**
+- Use `"double quotes"` not `'single'`
+- Add commas between items
+- No comma after last item
+- Match brackets: `{}` and `[]`
 
-🌟 Portfolio Highlights
+## 📊 What Recruiters See
 
-This repository showcases projects that demonstrate:
+**First 6 seconds:**
+✅ $2M+ in headline
+✅ 99.97% uptime stat
+✅ "Immediate Joiner" badge
+✅ Clear metrics
 
-Real-world data engineering solutions
+## 📝 JSON Quick Reference
 
-Scalable system design
+```json
+{
+  "string": "text in quotes",
+  "number": 123,
+  "boolean": true,
+  "array": ["item1", "item2"],
+  "object": { "key": "value" }
+}
+```
 
-Performance optimization
+## 📧 Contact Form
 
-Data transformation and analytics
+Currently client-side. To make functional:
+- **Formspree**: Easiest (add action URL)
+- **EmailJS**: Free tier available  
+- **Custom**: Modify `app.js`
 
-Dashboard-driven insights
+## 📈 Optional Analytics
 
-Each project reflects a commitment to clean architecture, scalability, and measurable impact.
+Add to `index.html` before `</head>`:
+```html
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_ID"></script>
+```
 
-📈 Vision
+## 💬 Support
 
-Data is not just about storage — it’s about strategy.
-My goal is to design systems that turn complexity into clarity and insights into action.
+- Validate JSON: JSONLint.com
+- Check console: Press F12
+- Compare to template structure
 
-🤝 Let’s Connect
+---
 
-If you’re interested in collaboration, opportunities, or discussing data engineering:
-
-LinkedIn: linkedin.com/in/renish07
-
-Email: renishguru@gmail.com
+**Update once, impress everyone** | JSON-powered simplicity
